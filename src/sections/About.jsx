@@ -57,6 +57,7 @@ export default function About() {
                 <img
                   src="/profile.jpg"
                   alt="Profile"
+                  loading="lazy"
                   style={{
                     width: '100%',
                     height: '100%',
