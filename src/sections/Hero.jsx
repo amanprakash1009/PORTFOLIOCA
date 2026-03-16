@@ -135,7 +135,7 @@ export default function Hero() {
         </Link>
 
         {/* ONLY THIS PATH FIXED */}
-        <a href="/portfolioCa/AmanCv.pdf" download className="btn-outline">
+        <a href="/AmanCv.pdf" download className="btn-outline">
           <FaDownload style={{ fontSize: '0.85rem' }} /> Download Resume
         </a>
 

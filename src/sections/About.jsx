@@ -55,7 +55,7 @@ export default function About() {
                 }}
               >
                 <img
-                  src="/portfolioCa/profile.jpg"
+                  src="/profile.jpg"
                   alt="Aman Prakash"
                   style={{
                     width: '100%',
