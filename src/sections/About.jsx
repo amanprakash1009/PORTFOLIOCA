@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { FaGraduationCap, FaMapMarkerAlt, FaCalendar, FaCode, FaLaptopCode, FaBrain } from 'react-icons/fa'
 import AnimatedSection from '../components/AnimatedSection'
-
+import profileImg from '../assets/profile.jpg'
 const stats = [
   { value: '200+', label: 'Problems Solved', icon: <FaCode /> },
   { value: '5+', label: 'Projects Built', icon: <FaLaptopCode /> },
@@ -55,7 +55,7 @@ export default function About() {
                 }}
               >
                 <img
-                  src="/profile.jpg"
+                  src={profileImg}
                   alt="Profile"
                   loading="lazy"
                   style={{
