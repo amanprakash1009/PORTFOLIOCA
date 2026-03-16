@@ -63,7 +63,6 @@ export default function About() {
                     objectFit: 'cover',
                     position: 'absolute',
                     top: 0,
-                    loading="lazy",
                     left: 0
                   }}
                 />
